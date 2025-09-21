@@ -4,20 +4,20 @@ public class tugasAlproPekan2{
 
 	public static void main(String[] args) {
 		int umur = 20;
-		float tinggi  =170.5f;
-		char golonganDarah = 'o';
+		float persentase = 50;
+		char carier = 'Y';
 		boolean butaWarna = false;
 		
 		System.out.println("=== Data Diri ===");
 		System.out.println("umur: " + umur +"tahun");
-		System.out.println("tinggi: "+ tinggi +"cm");
-		System.out.println("golongan darah: "+ golonganDarah);
-		System.out.println("tinggi: "+ tinggi +"cm");
+		System.out.println("persentase: "+ persentase +"%");
+		System.out.println("carier: "+ carier);
+		System.out.println("persentase: "+ persentase +"%");
 		
 		if (butaWarna) {
-			System.out.println("keterangan: anda buta warna");
-		} else {
 			System.out.println("keterangan: anda tidak buta warna");
+		} else {
+			System.out.println("keterangan: anda buta warna");
 		}
 		
 
